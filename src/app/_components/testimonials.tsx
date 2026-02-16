@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 
 import {
@@ -55,8 +56,18 @@ export function Testimonials() {
     emblaApi?.scrollNext();
   }
 
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    const interval = setInterval(() => {
+      emblaApi.scrollNext();
+    }, 7000);
+
+    return () => clearInterval(interval);
+  }, [emblaApi]);
+
   return (
-    <section className="bg-[#FFD449] py-16 ">
+    <section id="depoimentos" className="bg-[#FFD449] py-16 ">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">
           Depoimentos dos nossos clientes
