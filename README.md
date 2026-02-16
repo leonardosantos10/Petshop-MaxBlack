@@ -1,10 +1,43 @@
-Este projeto é uma página web de um pet shop e clínica veterinária chamado Max Black. Ele fornece informações sobre os serviços oferecidos, como cuidados com animais, produtos para animais, agendamentos de consultas e contato via WhatsApp.
+🐾 Max Black – Pet Shop & Clínica Veterinária
 
-As principais tecnologias utilizadas neste projeto são:
+Este projeto é uma aplicação web desenvolvida para o Max Black, um pet shop e clínica veterinária.
 
-Next.js: um framework JavaScript para construir aplicações web reativas e escaláveis.
-React: uma biblioteca JavaScript para construir interfaces de usuário.
-Tailwind CSS: uma biblioteca de utilitários CSS para estilizar elementos HTML com facilidade.
-TypeScript: um superconjunto de JavaScript que adiciona tipagem estática ao código.
-Embla Carousel: uma biblioteca JavaScript para criar carrosséis responsivos e performáticos.
-AOS (Animate On Scroll): uma biblioteca JavaScript para animações em scroll.
+A plataforma apresenta informações institucionais e permite que clientes conheçam os serviços oferecidos, produtos disponíveis e realizem agendamentos de consultas, além de facilitar o contato direto via WhatsApp.
+
+🚀 Funcionalidades
+
+📌 Apresentação institucional do pet shop e clínica
+
+🐶 Listagem de serviços veterinários e cuidados com animais
+
+🛍️ Exibição de produtos para pets
+
+📅 Agendamento de consultas
+
+💬 Contato direto via WhatsApp
+
+🎞️ Animações e carrosséis interativos para melhor experiência do usuário
+
+📱 Layout totalmente responsivo
+
+🛠️ Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+Next.js – Framework React para construção de aplicações web modernas e escaláveis.
+
+React – Biblioteca para construção de interfaces de usuário baseadas em componentes.
+
+Tailwind CSS – Framework CSS utilitário para estilização rápida e eficiente.
+
+TypeScript – Superset do JavaScript que adiciona tipagem estática ao projeto.
+
+shadcn/ui – Biblioteca de componentes acessíveis e reutilizáveis para React.
+
+Embla Carousel – Biblioteca leve para criação de carrosséis responsivos e performáticos.
+
+AOS – Biblioteca para criação de animações baseadas em scroll.
+
+📦 Objetivo do Projeto
+
+O objetivo principal é oferecer uma experiência moderna, intuitiva e responsiva para os clientes do Max Black, facilitando o acesso às informações e incentivando o contato e agendamento de serviços.
