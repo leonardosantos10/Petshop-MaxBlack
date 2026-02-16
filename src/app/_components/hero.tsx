@@ -20,16 +20,26 @@ export function Hero() {
       <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
         <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl not-odd: font-bold leading-10">
+            <h1
+              className="text-3xl md:text-4xl lg:text-5xl not-odd: font-bold leading-10"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
               Cuidando do seu melhor amigo com todo amor e carinho.
             </h1>
-            <p className="lg:text-lg">
+            <p
+              className="lg:text-lg"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            >
               Pet Shop Cão Boy e Clínica Veterinária completa com profissionais
               especializados, equipamentos modernos e muito carinho para seu
               pet!
             </p>
 
             <a
+              data-aos="fade-up"
+              data-aos-delay="300"
               target="_blank"
               href={`https://wa.me/5511911089322?text=Olá vim pelo site e gostaria de mais informações`}
               className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
@@ -39,7 +49,11 @@ export function Hero() {
             </a>
 
             <div className="mt-8">
-              <p className="text-sm mb-4">
+              <p
+                className="text-sm mb-4"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 <b className="bg-black text-white px-2 py-1 rounded-md">5%</b>{" "}
                 de desconto na Primeira compra.
               </p>
