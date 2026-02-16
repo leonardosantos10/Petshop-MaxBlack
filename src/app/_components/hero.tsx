@@ -18,10 +18,10 @@ export function Hero() {
       </div>
 
       <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
-        <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div className="space-y-6">
+        <article className="grid grid-cols-1 lg:grid-cols-2">
+          <div className="space-y-6 ml-8">
             <h1
-              className="text-3xl md:text-4xl lg:text-5xl not-odd: font-bold leading-10"
+              className="text-3xl md:text-4xl lg:text-5xl not-odd: font-bold leading-10 gap-12"
               data-aos="fade-down"
               data-aos-delay="300"
             >
@@ -32,9 +32,9 @@ export function Hero() {
               data-aos="fade-right"
               data-aos-delay="300"
             >
-              Pet Shop Cão Boy e Clínica Veterinária completa com profissionais
-              especializados, equipamentos modernos e muito carinho para seu
-              pet!
+              Pet shop Max Black e Clínica Veterinária completa com
+              profissionais especializados, equipamentos modernos e muito
+              carinho para seu pet!
             </p>
 
             <a

@@ -46,7 +46,7 @@ export function About() {
               Mais de 10 anos cuidando com amor do seu pet
             </h3>
             <p>
-              A Patinhas Pet Shop & Vet nasceu do amor incondicional pelos
+              o Pet shop Max Black & Vet nasceu do amor incondicional pelos
               animais. Somos uma clínica veterinária e pet shop completa, com
               equipe especializada e equipamentos modernos para oferecer o
               melhor atendimento. Nossa missão é proporcionar saúde, bem-estar e
