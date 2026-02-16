@@ -35,3 +35,20 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## 📦 Objetivo do Projeto
 
 O objetivo principal é oferecer uma experiência moderna, intuitiva e responsiva para os clientes do Max Black, facilitando o acesso às informações e incentivando o contato e agendamento de serviços.
+
+---
+
+---
+
+## ⚙️ Como Baixar, Instalar e Rodar o Projeto
+
+---
+
+### 2️⃣ Clonar o repositório
+
+```bash
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+
+----
+
+
