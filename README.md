@@ -1,6 +1,6 @@
 🐾 Max Black – Pet Shop & Clínica Veterinária
 
-Este projeto é uma aplicação web desenvolvida para o **Max Black**, um pet shop e clínica veterinária.
+Este projeto é uma aplicação web desenvolvida para o **Max Black**, um pet shop e clínica veterinária
 
 A plataforma apresenta informações institucionais e permite que clientes conheçam os serviços oferecidos, produtos disponíveis e realizem agendamentos de consultas, além de facilitar o contato direto via WhatsApp.
 
