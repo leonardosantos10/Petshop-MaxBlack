@@ -22,7 +22,7 @@ const brands = [
 
 export function Footer() {
   return (
-    <section id="contato" className="bg-[#2196f3] py-16 text-white">
+    <section className="bg-[#2196f3] py-16 text-white">
       <div className="container mx-auto px-4 ">
         <div className="border-b border-white/20 pb-8">
           <h4 className="text-3xl font-semibold mb-8 text-center">
@@ -52,34 +52,50 @@ export function Footer() {
           </div>
         </div>
 
-        <footer className="max-w-6xl mx-auto  grid grid-cols-1 mb:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5 ">
-          <div>
+        <footer className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5">
+          <div className="text-center md:text-left">
             <h3 className="text-2xl font-semibold mb-2">Pet shop Max Black</h3>
             <p className="mb-4">
-              cuidando do seu malhor amigo com amor e dedicação.
+              cuidando do seu melhor amigo com amor e dedicação.
             </p>
-            <a href="#" className="bg-green-500 px-4 py-2 rounded-md mt-4">
+            <a
+              href="https://wa.me/5511911089322?text=Olá vim pelo site e gostaria de mais informações"
+              target="_blank"
+              className="inline-block bg-green-500 px-4 py-2 rounded-md mt-4 hover:bg-green-600 transition-colors"
+            >
               Contato via WhatsApp
             </a>
           </div>
 
-          <div>
+          <div className="text-center md:text-left">
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
-            <p>Email: teste@teste.com</p>
-            <p>Telefone: (XX) 1231831238</p>
+            <p className="mb-1">Email: teste@teste.com</p>
+            <p className="mb-1">Telefone: (XX) 1231831238</p>
             <p>Rua X, centro, Campo Grande | MS</p>
           </div>
 
-          <div>
+          <div className="text-center md:text-left">
             <h3 className="text-2xl font-semibold mb-2">Redes sociais</h3>
-            <div className="flex gap-4">
-              <a href="#" target="_blank">
+            <div className="flex gap-4 justify-center md:justify-start">
+              <a
+                href="#"
+                target="_blank"
+                className="hover:opacity-80 transition-opacity"
+              >
                 <FacebookLogoIcon className="w-8 h-8" />
               </a>
-              <a href="#" target="_blank">
+              <a
+                href="#"
+                target="_blank"
+                className="hover:opacity-80 transition-opacity"
+              >
                 <InstagramLogoIcon className="w-8 h-8" />
               </a>
-              <a href="#" target="_blank">
+              <a
+                href="#"
+                target="_blank"
+                className="hover:opacity-80 transition-opacity"
+              >
                 <YoutubeLogoIcon className="w-8 h-8" />
               </a>
             </div>

@@ -58,10 +58,10 @@ export function Hero() {
               ))}
             </ul>
 
-            {/* Botão Menu Mobile */}
+            {/* Botão Menu Mobile - Posicionado à direita */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden p-2 hover:bg-white/10 rounded-lg transition-colors"
+              className="absolute right-2 md:hidden p-2 hover:bg-white/10 rounded-lg transition-colors"
               aria-label="Toggle menu"
             >
               {isMenuOpen ? (
