@@ -67,7 +67,7 @@ export function Footer() {
             </a>
           </div>
 
-          <div className="text-center md:text-left">
+          <div id="contato" className="text-center md:text-left">
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
             <p className="mb-1">Email: teste@teste.com</p>
             <p className="mb-1">Telefone: (XX) 1231831238</p>
