@@ -57,7 +57,7 @@ O objetivo principal é oferecer uma experiência moderna, intuitiva e responsiv
 ````
 ---
 
-1 Instalar as dependências
+1 Instalar as dependências:
 
 Com npm:
 
@@ -65,7 +65,7 @@ npm install
 
 ---
 
- ### 2 Rodar o projeto em ambiente de desenvolvimento
+ ### 2 Rodar o projeto em ambiente de desenvolvimento:
 
    npm run dev
 
