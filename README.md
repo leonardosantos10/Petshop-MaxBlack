@@ -4,8 +4,8 @@ Este projeto é uma aplicação web desenvolvida para o **Max Black**, um pet sh
 
 A plataforma apresenta informações institucionais e permite que clientes conheçam os serviços oferecidos, produtos disponíveis e realizem agendamentos de consultas, além de facilitar o contato direto via WhatsApp.
 
-<h2>Meu Portfólio</h2>
-<a href="https://portfolio-developer-leonardo.netlify.app/" target="_blank">
+
+<a href="https://petshop-max-black.netlify.app/" target="_blank">
   🔗 Acesse o site aqui
 </a>
 
